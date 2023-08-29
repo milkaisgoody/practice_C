@@ -18,3 +18,23 @@ ex) 소수점 2자리까지 나타내기 -> "%.2f"
 
 ### <아스키 코드표>
 ![아스키 코](https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA4MzBfMTk5%2FMDAxNjYxODMzNjUyNzYw.Ch6CCXmFR88UTMiMOmqcRVm1OmUsCS3cVJ-VqE8GvWcg.OIBZewhvEy0xBJmMp8tiwJUNI75jDYX5VAGMugB4tcUg.PNG.es7her%2F%25BE%25C6%25BD%25BA%25C5%25B0_%25C4%25DA%25B5%25E5%25C7%25A5_2-001.png&type=sc960_832)
+
+### <진수>
+|코드|진수|
+|--|--|
+|%o|8진수로 출력|
+|%d|10진수로 출력|
+|%x|16진수로 출력|
+
+### <큰 따옴표와 %출력하기>
+-실행결과
+>I said "Hello" and left.
+>
+>I was 100% confident with my behavior.
+
+-코드
+```C
+printf("I said \"Hello\" and left."); //큰따옴표 출력하는 법
+printf("\n");
+printf("I was 100%% confident with my behavior."); // %출력하는 법
+``` 
