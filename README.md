@@ -38,3 +38,25 @@ printf("I said \"Hello\" and left."); //큰따옴표 출력하는 법
 printf("\n");
 printf("I was 100%% confident with my behavior."); // %출력하는 법
 ``` 
+
+### <swithch문>
+```C
+scanf("%d", &num); //input을 읽는다;
+
+switch(num)
+{
+  case 1:
+        printf("One\n"); //값이 1이면 One이 출력됨
+        break; //switch문 탈출
+  case 2:
+        printf("Two\n"); //값이 2이면 One이 출력됨
+        break;
+  case 3:
+        printf("Three\n"); //값이 3이면 One이 출력됨
+        break;
+  default:
+        printf("다른수\n"); //위중 아무값에도 포함되지 않는 경우 이 문장이 출력됨, 선택적으로 넣는 것임
+        break; //제일 끝 break는 없어도 됨
+}
+```
+
