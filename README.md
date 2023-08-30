@@ -39,7 +39,7 @@ printf("\n");
 printf("I was 100%% confident with my behavior."); // %출력하는 법
 ``` 
 
-### <swithch문>
+### <switch문>
 ```C
 scanf("%d", &num); //input을 읽는다;
 
@@ -59,4 +59,10 @@ switch(num)
         break; //제일 끝 break는 없어도 됨
 }
 ```
+
+### <정렬>
+
+오른쪽 정렬: %+숫자d 
+
+왼쪽 정렬: %-숫자d
 
