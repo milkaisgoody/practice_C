@@ -66,3 +66,20 @@ switch(num)
 
 왼쪽 정렬: %-숫자d
 
+### <난수 발생>
+```C
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <stdlib.h>
+#include<time.h>
+
+int main(void)
+{
+	srand(time(NULL));//매번 다른 방법으로 난수를 생성하도록 해주는 코드
+
+	printf("%d\n", rand() % 100 + 1); // rand() % 100 + 1 -> 1부터 100까지의 난수 출력
+	printf("%d\n", rand() % 100); // rand() % 100 -> 0부터 99까지의 수
+	printf("%d\n", rand() % 101); //rand() % 101 -> 0부터 100까지의 수
+}
+```
+
