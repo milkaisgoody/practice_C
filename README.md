@@ -83,3 +83,8 @@ int main(void)
 }
 ```
 
+### <버퍼 비움>
+버퍼비움 예제 [here](https://github.com/milkaisgoody/practice_C/blob/main/grade1/003_hw9/003_lab9_1/003_lab9_1.c)
+
+### <이진수 거꾸로 출력>
+이진수 거꾸로 출력 예제 [here](https://github.com/milkaisgoody/practice_C/blob/main/grade1/003_hw9/003_hw7_5/003_hw7_5.c)
